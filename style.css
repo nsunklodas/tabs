@@ -1,0 +1,179 @@
+@charset "UTF-8";
+body {
+  font-family: Arial;
+  background: rgba(128, 128, 128, 0.356);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the tab */
+.tab {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 30%;
+  width: 12.5%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 20px 24px;
+  font-size: 20px;
+  background: rgba(128, 128, 128, 0.075);
+}
+
+.tab button:before {
+  content: "🏋️‍♂️";
+  float: left;
+  padding-right: 5px;
+}
+
+.tab button:nth-of-type(1), button:nth-of-type(2) {
+  border-bottom: 1px solid black;
+}
+
+.tab button:nth-of-type(1) {
+  border-radius: 0px 35px 0 0;
+}
+
+.tab button:nth-of-type(3) {
+  border-radius: 0px 0 35px 0;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+
+#London {
+  display: block;
+}
+#London h1 {
+  position: fixed;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  background: rgb(255, 126, 126);
+}
+#London section {
+  width: 75%;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#London section h2 {
+  text-align: center;
+  padding: 30px;
+}
+#London section img {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  background-size: cover;
+}
+#London section p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  float: left;
+  line-height: 1.3rem;
+}
+#London section h2:nth-of-type(2) {
+  margin-top: 200px;
+}
+#London section h2:nth-of-type(3) {
+  margin-top: 200px;
+}
+
+#Paris h1 {
+  position: fixed;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  background: rgb(255, 126, 126);
+}
+#Paris section {
+  width: 75%;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Paris section h2 {
+  text-align: center;
+  padding: 30px;
+}
+#Paris section img {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  background-size: cover;
+}
+#Paris section p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  float: left;
+  line-height: 1.3rem;
+}
+#Paris section h2:nth-of-type(2) {
+  margin-top: 200px;
+}
+#Paris section h2:nth-of-type(3) {
+  margin-top: 200px;
+}
+
+#Tokyo h1 {
+  position: fixed;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  background: rgb(255, 126, 126);
+}
+#Tokyo section {
+  width: 75%;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Tokyo section h2 {
+  text-align: center;
+  padding: 30px;
+}
+#Tokyo section img {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  background-size: cover;
+}
+#Tokyo section p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  float: left;
+  line-height: 1.3rem;
+}
+#Tokyo section h2:nth-of-type(2) {
+  margin-top: 200px;
+}
+#Tokyo section h2:nth-of-type(3) {
+  margin-top: 200px;
+}/*# sourceMappingURL=style.css.map */
